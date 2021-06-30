@@ -1,0 +1,81 @@
+a{
+	display: block;
+	background-color: grey;
+	color: white;
+  	width: auto;
+  	height: 14.3%;
+  	font-size: 30px;
+}
+
+a:hover{
+	background-color: orange;
+}
+
+.img_bg{
+	height: 1500px;
+	background-image: url(./bg.png);
+	background-repeat: no-repeat;
+	background-attachment: fix;
+}
+/*
+div{
+	color: grey;
+}*/
+/*
+.demo{
+	background-color: gray;
+}
+
+#demo-001{
+	background-color: aqua;
+}*/
+
+#navi{
+	margin: 20px;
+	border: black;
+	border-style: solid;
+	padding: 40px;
+	text-align: center;
+}
+
+#left{
+	width: 30%;
+	float: left;
+	margin: 0;
+	margin-left: 20px;
+	height: 500px;
+
+	border: black;
+	border-style: solid;
+	padding: 0;
+	text-align: center;
+}
+
+#right{
+	width: 60%;
+	float: right;
+	margin: 0;
+	margin-right: 20px;
+	height: 500px;
+
+	border: black;
+	border-style: solid;
+	padding: 0;
+	text-align: center;
+}
+
+img{
+	height: 500px;
+  	float: left;
+}
+
+# des{
+	float: right;
+}
+
+.nav_span{
+	background-color: grey;
+	font-size: 30px;
+	display: inline-block;
+  	width: 33%;
+}
