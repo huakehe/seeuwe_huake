@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WB</title>
+	<link rel="stylesheet" type="text/css" href="style_wb.css">
+</head>
+<body>
+	<ul class="nav">
+	    <li>
+	        <a href="">微博</a>
+	        <ul>
+	            <li>
+	                <a href="">私信</a>
+	            </li>
+	            <li>
+	                <a href="">评论</a>
+	            </li>
+	            <li>
+	                <a href="">@我</a>
+	            </li>
+	        </ul>
+	    </li>
+	    <li>
+	        <a href="">微博</a>
+	        <ul>
+	            <li>
+	                <a href="">私信</a>
+	            </li>
+	            <li>
+	                <a href="">评论</a>
+	            </li>
+	            <li>
+	                <a href="">@我</a>
+	            </li>
+	        </ul>
+	    </li>
+	    <li>
+	        <a href="">微博</a>
+	        <ul>
+	            <li>
+	                <a href="">私信</a>
+	            </li>
+	            <li>
+	                <a href="">评论</a>
+	            </li>
+	            <li>
+	                <a href="">@我</a>
+	            </li>
+	        </ul>
+	    </li>
+	    <li>
+	        <a href="">微博</a>
+	        <ul>
+	            <li>
+	                <a href="">私信</a>
+	            </li>
+	            <li>
+	                <a href="">评论</a>
+	            </li>
+	            <li>
+	                <a href="">@我</a>
+	            </li>
+	        </ul>
+	    </li>
+	</ul>
+	<script>
+        var nav= document.querySelector('.nav');
+        var l = nav.children
+
+        for(var i=0;i<l.length;i++){
+        	this.l[i].children[1].style.display='none';
+        }
+
+        for(var i=0;i<l.length;i++){
+        	l[i].onmouseover=function(){
+        		this.children[1].style.display='block';
+        	}
+        	l[i].onmouseout=function(){
+        		this.children[1].style.display='none';
+        	}
+        }
+
+    </script>
+</body>
+</html>
