@@ -1,0 +1,63 @@
+body{
+  background-color: #FFEEE4;
+}
+
+table{
+  width:100%;
+}
+
+th.bar{
+  background-color: #F17F42;
+  width: 2%;
+}
+
+th.bar2{
+  background-color: #F17F42;
+  width: 2%;
+}
+
+th.blank{
+  width: 40%;
+}
+
+.center{
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  font-size: 50px;
+}
+
+.button{
+  font-size: 25px;
+}
+
+.input_box{
+  font-size: 30px;
+  width: 500px;
+}
+
+.table2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+  font-size: 15px;
+  text-align: left;
+}
+
+.foot{
+  position: fixed;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 12px;
+  color: grey;
+  bottom: 0;
+}
+
+
+
+
+
+
+
